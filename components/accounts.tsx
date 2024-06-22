@@ -10,6 +10,9 @@ export default function Accounts() {
       <Link href="/kayn">
         <Image isBlurred src="/images/navbar/Kayn.jpg" width={100} />
       </Link>
+      <Link href="/chisaki">
+        <Image isBlurred src="/images/navbar/Chisaki.jpg" width={100} />
+      </Link>
       {/* <Link href="/multimuse">
         <Image isBlurred src="/images/navbar/Stark.png" width={100} />
       </Link> */}
