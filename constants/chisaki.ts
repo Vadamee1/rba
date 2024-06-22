@@ -9,6 +9,6 @@ export const chisaki: Character = {
     fandom: "My hero academia",
   },
   eyes: "/images/characters/chisaki/Eyes.jpg",
-  footer: "/images/characters/Chisaki/Footer.jpg",
+  footer: "/images/characters/chisaki/Footer.jpg",
   link: "https://www.facebook.com/chisaki.v",
 };
