@@ -1,18 +1,15 @@
-import CharacterCard from "@/components/shared/CharacterCard";
-import { gilgamesh } from "@/constants/gilgamesh";
-import { Character } from "@/types/characters";
+import HomeBody from "@/components/pages/home/HomeBody";
+import HomeFooter from "@/components/pages/home/HomeFooter";
+import HomeHeader from "@/components/pages/home/HomeHeader";
+import CustomCard from "@/components/ui/CustomCard";
 
 export default function Home() {
-  const { body, eyes, characterData, footer, link }: Character = gilgamesh;
-
   return (
-    <div className="w-full">
-      <CharacterCard
-        bodyImage={body}
-        character={characterData}
-        eyesImage={eyes}
-        footerImage={footer}
-        link={link}
+    <div className="flex justify-center items-">
+      <CustomCard
+        body={<HomeBody />}
+        footer={<HomeFooter />}
+        header={<HomeHeader />}
       />
     </div>
   );

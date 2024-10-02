@@ -1,5 +1,6 @@
-import { AccordionType } from "@/types/accordions";
 import { Accordion, AccordionItem } from "@nextui-org/react";
+
+import { AccordionType } from "@/types/accordions";
 
 interface Props {
   data: AccordionType[];

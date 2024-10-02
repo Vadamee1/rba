@@ -2,6 +2,7 @@ import {
   Fira_Code as FontMono,
   Inter as FontSans,
   Noto_Serif,
+  Permanent_Marker,
   Playfair_Display,
 } from "next/font/google";
 
@@ -17,8 +18,14 @@ export const fontMono = FontMono({
 
 export const characterNameFont = Noto_Serif({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
 });
 
 export const infoCharacterFont = Playfair_Display({
   subsets: ["latin"],
+});
+
+export const titleFont = Permanent_Marker({
+  subsets: ["latin"],
+  weight: ["400"],
 });

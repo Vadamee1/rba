@@ -59,6 +59,16 @@ export const siteConfig = {
       href: "/logout",
     },
   ],
+  router: {
+    aboutMe: {
+      href: "/about-account",
+      name: "About account",
+    },
+    characters: {
+      href: "/characters",
+      name: "Characters",
+    },
+  },
   links: {
     github: "https://github.com/nextui-org/nextui",
     twitter: "https://twitter.com/getnextui",
